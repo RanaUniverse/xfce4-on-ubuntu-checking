@@ -12,7 +12,7 @@
       <property name="icon-size" type="uint" value="16"/>
       <property name="size" type="uint" value="26"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="1"/>
+        <value type="int" value="18"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -37,9 +37,9 @@
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu"/>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
+      <property name="sort-order" type="uint" value="1"/>
     </property>
     <property name="plugin-3" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -52,6 +52,8 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="network"/>
         <value type="string" value="ibus panel"/>
       </property>
       <property name="known-items" type="array">
@@ -75,6 +77,44 @@
       <property name="button-title" type="uint" value="3"/>
       <property name="appearance" type="uint" value="1"/>
       <property name="custom-title" type="string" value="Rana Universe 🍌🍌🍌"/>
+    </property>
+    <property name="plugin-18" type="string" value="whiskermenu">
+      <property name="view-mode" type="int" value="0"/>
+      <property name="launcher-show-name" type="bool" value="true"/>
+      <property name="launcher-icon-size" type="int" value="3"/>
+      <property name="menu-width" type="int" value="1000"/>
+      <property name="menu-height" type="int" value="700"/>
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="position-categories-horizontal" type="bool" value="false"/>
+      <property name="position-profile-alternate" type="bool" value="false"/>
+      <property name="position-commands-alternate" type="bool" value="true"/>
+      <property name="profile-shape" type="int" value="0"/>
+      <property name="show-button-icon" type="bool" value="true"/>
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="button-title" type="string" value="Rana Universe 🍌🍌🍌"/>
+      <property name="button-icon" type="string" value="/home/rana-universe/Pictures/linux_logo.png"/>
+      <property name="default-category" type="int" value="0"/>
+      <property name="category-icon-size" type="int" value="2"/>
+      <property name="position-search-alternate" type="bool" value="false"/>
+      <property name="hover-switch-category" type="bool" value="false"/>
+      <property name="stay-on-focus-out" type="bool" value="true"/>
+      <property name="sort-categories" type="bool" value="false"/>
+      <property name="recent" type="array">
+        <value type="string" value="org.telegram.desktop._2fbb96522ad0f9628422ceb1039fbc4d.desktop"/>
+        <value type="string" value="brave-browser.desktop"/>
+        <value type="string" value="code.desktop"/>
+      </property>
+      <property name="show-command-switchuser" type="bool" value="false"/>
+      <property name="show-command-restart" type="bool" value="true"/>
+      <property name="show-command-shutdown" type="bool" value="true"/>
+      <property name="show-command-suspend" type="bool" value="true"/>
+      <property name="show-command-settings" type="bool" value="false"/>
+      <property name="show-command-profile" type="bool" value="true"/>
+      <property name="favorites" type="array">
+        <value type="string" value="brave-browser.desktop"/>
+        <value type="string" value="code.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+      </property>
     </property>
   </property>
 </channel>
