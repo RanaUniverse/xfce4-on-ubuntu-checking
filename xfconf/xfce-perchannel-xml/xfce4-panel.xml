@@ -115,6 +115,7 @@
         <value type="string" value="code.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
       </property>
+      <property name="menu-opacity" type="int" value="100"/>
     </property>
   </property>
 </channel>
