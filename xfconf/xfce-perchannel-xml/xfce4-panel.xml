@@ -16,6 +16,7 @@
         <value type="int" value="1"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
+        <value type="int" value="16"/>
         <value type="int" value="4"/>
         <value type="int" value="5"/>
         <value type="int" value="15"/>
@@ -197,5 +198,6 @@
         <property name="enabled" type="bool" value="false"/>
       </property>
     </property>
+    <property name="plugin-16" type="string" value="eyes"/>
   </property>
 </channel>
