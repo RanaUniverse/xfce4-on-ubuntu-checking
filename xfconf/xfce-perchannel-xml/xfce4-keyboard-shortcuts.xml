@@ -43,7 +43,6 @@
       <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-session-logout"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;s" type="string" value="orca"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
@@ -60,6 +59,14 @@
       <property name="Print" type="string" value="/home/rana-universe/.apps_and_softwares/scripts_for_shortcuts/screenshot_fullscreen.sh"/>
       <property name="&lt;Shift&gt;Print" type="string" value="/home/rana-universe/.apps_and_softwares/scripts_for_shortcuts/screenshot_active_windows.sh"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Print" type="string" value="/home/rana-universe/.apps_and_softwares/scripts_for_shortcuts/screenshot_rectangle_selection.sh"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;p" type="string" value="poweroff"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;r" type="string" value="reboot"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;s" type="string" value="systemctl suspend"/>
+      <property name="&lt;Super&gt;i" type="string" value="xfce4-settings-manager"/>
+      <property name="&lt;Super&gt;v" type="string" value="xfce4-clipman-history"/>
+      <property name="&lt;Super&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
+      <property name="&lt;Primary&gt;Escape" type="string" value="xfce4-popup-whiskermenu"/>
+      <property name="Super_L" type="string" value="xfce4-popup-whiskermenu"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
